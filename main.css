@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2em;
+    padding: 5em;
+}
+.card {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 1em;
+    overflow: hidden;
+}
+.card-image {
+    height: 40vh;
+    overflow: hidden;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.card-image img {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+.card-content {
+    padding: 1em;
+}
+.card-content-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0.5em;
+}
+.card-content-top-category {
+    opacity: 0.6;
+    text-transform: capitalize;
+    font-size: 0.9em;
+}
+.card-content-top-rate {
+    display: flex;
+    align-items: center;
+    gap: 0.4em;
+}
+.card-content-top-rate svg {
+    font-size: 0.7em;
+    color: rgba(0, 0, 0, 0.3);
+}
+.card-content-top-rate  {
+    color: gold;
+}
+.card-content a {
+    font-size: 1em;
+    text-decoration: none;
+    color: #000;
+    margin-bottom: 0.5em;
+    display: block;
+}
+.card-content p {
+    opacity: 0.6;
+    margin-bottom: 0.5em;
+}
+.card-content strong {
+    margin-bottom: 0.5em;
+    display: block;
+}
+.card-content-tags {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+.card-content-tags span {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 0.3em 1em;
+    border-radius: 1em;
+    font-size: 0.8em;
+}
+
+.top-container {
+    padding: 5em;
+    padding-bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
